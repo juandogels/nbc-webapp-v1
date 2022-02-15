@@ -1,11 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Connect from './connect'
 
 export default function Home() {
   return (
-    <div>
-      sup
-    </div>
+    <Connect />
   )
 }
